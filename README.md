@@ -1,6 +1,7 @@
-# AI-Powered Banking Assistant with Analytics Dashboard
+# 🚀 AI-Powered Banking Assistant with Analytics Dashboard
 
-A full-featured banking simulation system inspired by real-world applications like SBI YONO, featuring chatbot-driven interaction, transaction management, financial tools, and real-time analytics visualization.
+A modern fintech web application inspired by real-world banking platforms like SBI YONO.  
+This project provides an interactive chatbot interface combined with banking operations, financial tools, and real-time analytics visualization.
 
 ---
 
@@ -18,11 +19,12 @@ A full-featured banking simulation system inspired by real-world applications li
 
 ## 🔥 Key Highlights
 
-- Designed a modern fintech UI with dashboard layout
-- Implemented chatbot-based banking assistant
-- Built transaction system with validation & constraints
-- Integrated financial tools like EMI calculator
-- Visualized data using interactive charts (Chart.js)
+- 💬 Chatbot-driven banking interaction
+- 📊 Real-time transaction analytics (Chart.js)
+- 💰 Balance, transfer, and transaction management
+- 📄 Mini statement & history tracking
+- 📊 EMI calculator & loan assistance
+- 🔐 Security features (PIN validation, card blocking)
 
 ---
   
@@ -75,9 +77,13 @@ A full-featured banking simulation system inspired by real-world applications li
 
 ## 📸 Screenshots
 
+### 💬 Chat Interface
 <img width="921" height="974" alt="image" src="https://github.com/user-attachments/assets/fd374017-1a98-45f7-83af-b956ebd0a40d" />
+### 📊 Analytics
 <img width="456" height="409" alt="image" src="https://github.com/user-attachments/assets/2c7ab745-0178-4885-a67d-c49ce588e4f3" />
+### 📄 Transaction
 <img width="894" height="309" alt="image" src="https://github.com/user-attachments/assets/b18f2195-4d7f-4865-846c-da4fbb03bfb4" />
+### 🏦 Dashboard
 <img width="2870" height="1527" alt="image" src="https://github.com/user-attachments/assets/b8cb2995-228e-4cf7-b31b-e8b4a12db37f" />
 
 ---
