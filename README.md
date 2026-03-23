@@ -25,6 +25,8 @@ A full-featured banking simulation system inspired by real-world applications li
 - Built transaction system with validation & constraints
 - Integrated financial tools like EMI calculator
 - Visualized data using interactive charts (Chart.js)
+
+---
   
 ## 🚀 Features
 
