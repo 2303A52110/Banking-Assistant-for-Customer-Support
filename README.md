@@ -1,6 +1,4 @@
-# Banking-Assistant-for-Customer-Support
-
-# 🚀 AI-Powered Banking Assistant with Analytics Dashboard
+# AI-Powered Banking Assistant with Analytics Dashboard
 
 A full-featured banking simulation system inspired by real-world applications like SBI YONO, featuring chatbot-driven interaction, transaction management, financial tools, and real-time analytics visualization.
 
