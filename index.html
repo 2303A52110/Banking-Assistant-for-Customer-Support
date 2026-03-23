@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Banking Assistant</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+
+<div class="main-container">
+
+    <!-- SIDEBAR -->
+    <div class="sidebar">
+        <h2>🏦 Banking</h2>
+        <p id="balanceDisplay"></p>
+
+        <button onclick="creditMoney()">💳 Credit</button>
+        <button onclick="debitMoney()">💸 Debit</button>
+        <button onclick="withdrawMoney()">🏧 Withdraw</button>
+        <button onclick="checkBalance()">💰 Balance</button>
+        <button onclick="logout()">🚪 Logout</button>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div class="chat-section">
+
+        <!-- LEFT GRAPH -->
+        <div class="graph-panel">
+            <h3>📊 Analytics</h3>
+            <canvas id="balanceChart"></canvas>
+        </div>
+
+        <!-- RIGHT CHAT -->
+        <div class="container">
+
+            <p><b>Account No:</b> <span id="accNoDisplay"></span></p>
+            <p><b>Name:</b> <span id="nameDisplay"></span></p>
+
+            <h1>🏦 AI Banking Assistant</h1>
+
+            <div id="chatbox">
+                <div id="messages"></div>
+            </div>
+
+            <div class="input-area">
+                <input type="text" id="userInput" placeholder="Type here...">
+                <button onclick="sendMessage()">➤</button>
+            </div>
+
+            <h3>📊 Transactions</h3>
+            <table id="transactionTable"></table>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script src="data.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>

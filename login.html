@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="login-body">
+
+<div class="login-box">
+    <h2>🏦 Bank Login</h2>
+
+    <input type="text" id="accNo" placeholder="Account Number">
+    <input type="text" id="name" placeholder="Your Name">
+
+    <button onclick="login()">Login</button>
+</div>
+
+<script>
+function login(){
+    let acc = document.getElementById("accNo").value.trim();
+    let name = document.getElementById("name").value.trim();
+
+    if(!/^\d{6,}$/.test(acc)){
+        alert("Account must be 6+ digits");
+        return;
+    }
+
+    if(name === ""){
+        alert("Enter name");
+        return;
+    }
+
+    localStorage.setItem("accountNo", acc);
+    localStorage.setItem("userName", name);
+
+    window.location.href = "index.html";
+}
+</script>
+
+</body>
+</html>
