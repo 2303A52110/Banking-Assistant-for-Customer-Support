@@ -78,11 +78,14 @@ This project provides an interactive chatbot interface combined with banking ope
 ## 📸 Screenshots
 
 ### 💬 Chat Interface
-<img width="921" height="974" alt="image" src="https://github.com/user-attachments/assets/fd374017-1a98-45f7-83af-b956ebd0a40d" />
+<img width="456" height="409" alt="image" src="https://github.com/user-attachments/assets/fd374017-1a98-45f7-83af-b956ebd0a40d" />
+
 ### 📊 Analytics
 <img width="456" height="409" alt="image" src="https://github.com/user-attachments/assets/2c7ab745-0178-4885-a67d-c49ce588e4f3" />
+
 ### 📄 Transaction
 <img width="894" height="309" alt="image" src="https://github.com/user-attachments/assets/b18f2195-4d7f-4865-846c-da4fbb03bfb4" />
+
 ### 🏦 Dashboard
 <img width="2870" height="1527" alt="image" src="https://github.com/user-attachments/assets/b8cb2995-228e-4cf7-b31b-e8b4a12db37f" />
 
