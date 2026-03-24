@@ -1,3 +1,6 @@
+if(!localStorage.getItem("accountNo")){
+    window.location.href = "login.html";
+}
 let balance = 25000;
 let transactions = [];
 let chartInstance = null;
